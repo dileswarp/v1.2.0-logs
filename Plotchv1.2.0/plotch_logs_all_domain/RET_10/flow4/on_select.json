@@ -4,22 +4,22 @@
             "items": [
                 {
                     "fulfillment_id": "F1",
-                    "id": "1123113753"
+                    "id": "1124153999"
                 }
             ],
             "quote": {
                 "breakup": [
                     {
-                        "title": "24 Mantra Organic Wholewheat Atta",
+                        "title": "Aachi Cow Ghee 3 KG",
                         "price": {
                             "currency": "INR",
-                            "value": "299.00"
+                            "value": "1999.00"
                         },
                         "@ondc/org/title_type": "item",
                         "item": {
                             "price": {
                                 "currency": "INR",
-                                "value": "299.00"
+                                "value": "1999.00"
                             },
                             "quantity": {
                                 "available": {
@@ -33,12 +33,21 @@
                         "@ondc/org/item_quantity": {
                             "count": 1
                         },
-                        "@ondc/org/item_id": "1123113753"
+                        "@ondc/org/item_id": "1124153999"
+                    },
+                    {
+                        "@ondc/org/item_id": "F1",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0.00"
+                        },
+                        "@ondc/org/title_type": "delivery",
+                        "title": "Delivery charges"
                     }
                 ],
                 "price": {
                     "currency": "INR",
-                    "value": "299.00"
+                    "value": "1999.00"
                 },
                 "ttl": "P1D"
             },
@@ -68,18 +77,18 @@
         }
     },
     "context": {
-        "city": "std:080",
+        "city": "std:022",
         "domain": "ONDC:RET10",
         "bpp_uri": "https://ondc.hypermart.site/ondc/v1/244280/bpp",
         "core_version": "1.2.0",
         "bap_id": "ondc.ondcstore.com",
         "ttl": "PT30S",
         "bpp_id": "ondc.hypermart.site",
-        "timestamp": "2024-02-26T13:32:10.367Z",
+        "timestamp": "2024-03-01T09:31:42.021Z",
         "action": "on_select",
         "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
         "country": "IND",
-        "message_id": "f445d677-8b12-40a6-a981-9bfc3b440e86",
-        "transaction_id": "8432131d-d4a0-4abe-aa8f-3a3356881f11"
+        "message_id": "a3f63c19-aa31-4dfc-92d6-45bff6a80ab7",
+        "transaction_id": "32dc4f3f-0a38-41d4-a4a9-f4045d69834c"
     }
 }

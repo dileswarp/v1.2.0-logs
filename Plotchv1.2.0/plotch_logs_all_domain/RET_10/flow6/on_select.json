@@ -4,26 +4,26 @@
             "items": [
                 {
                     "fulfillment_id": "F1",
-                    "id": "1123113753"
+                    "id": "1124153997"
                 },
                 {
                     "fulfillment_id": "F1",
-                    "id": "1123113752"
+                    "id": "1124153999"
                 }
             ],
             "quote": {
                 "breakup": [
                     {
-                        "title": "24 Mantra Organic Wholewheat Atta",
+                        "title": "Mother Care Ghee 1 KG",
                         "price": {
                             "currency": "INR",
-                            "value": "299.00"
+                            "value": "849.00"
                         },
                         "@ondc/org/title_type": "item",
                         "item": {
                             "price": {
                                 "currency": "INR",
-                                "value": "299.00"
+                                "value": "849.00"
                             },
                             "quantity": {
                                 "available": {
@@ -37,19 +37,19 @@
                         "@ondc/org/item_quantity": {
                             "count": 1
                         },
-                        "@ondc/org/item_id": "1123113753"
+                        "@ondc/org/item_id": "1124153997"
                     },
                     {
-                        "title": "24 Mantra Organic Wholewheat Atta",
+                        "title": "Aachi Cow Ghee 3 KG",
                         "price": {
                             "currency": "INR",
-                            "value": "199.00"
+                            "value": "1999.00"
                         },
                         "@ondc/org/title_type": "item",
                         "item": {
                             "price": {
                                 "currency": "INR",
-                                "value": "199.00"
+                                "value": "1999.00"
                             },
                             "quantity": {
                                 "available": {
@@ -63,12 +63,21 @@
                         "@ondc/org/item_quantity": {
                             "count": 1
                         },
-                        "@ondc/org/item_id": "1123113752"
+                        "@ondc/org/item_id": "1124153999"
+                    },
+                    {
+                        "@ondc/org/item_id": "F1",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0.00"
+                        },
+                        "@ondc/org/title_type": "delivery",
+                        "title": "Delivery charges"
                     }
                 ],
                 "price": {
                     "currency": "INR",
-                    "value": "498.00"
+                    "value": "2848.00"
                 },
                 "ttl": "P1D"
             },
@@ -98,18 +107,18 @@
         }
     },
     "context": {
-        "city": "std:080",
+        "city": "std:022",
         "domain": "ONDC:RET10",
         "bpp_uri": "https://ondc.hypermart.site/ondc/v1/244280/bpp",
         "core_version": "1.2.0",
         "bap_id": "ondc.ondcstore.com",
         "ttl": "PT30S",
         "bpp_id": "ondc.hypermart.site",
-        "timestamp": "2024-02-26T14:51:04.914Z",
+        "timestamp": "2024-03-01T10:04:27.608Z",
         "action": "on_select",
         "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
         "country": "IND",
-        "message_id": "92242d85-da5f-49dc-813d-bc195148dc95",
-        "transaction_id": "ba2571a3-7ed2-42b8-9f93-35e869ea8549"
+        "message_id": "ec8973eb-34f6-4a1f-802e-36bfab1dbb4a",
+        "transaction_id": "b9fcd582-8922-4f17-ac2f-4c354858a4a4"
     }
 }

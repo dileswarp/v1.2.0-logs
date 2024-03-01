@@ -6,18 +6,18 @@
                     "tracking": true,
                     "end": {
                         "person": {
-                            "name": "house no 1  North West Delhi"
+                            "name": "First FLoor Near Balajai Sweets"
                         },
                         "contact": {
-                            "phone": "9604402164"
+                            "phone": "8097527450"
                         },
                         "location": {
-                            "gps": "28.7153451,77.1088008",
+                            "gps": "28.7306307,77.0219019",
                             "address": {
-                                "building": "house no 1 ",
+                                "building": "First FLoor",
                                 "city": "North West Delhi",
-                                "name": "North West Delhi",
-                                "locality": "North West Delhi",
+                                "name": "Near Balajai Sweets",
+                                "locality": "Near Balajai Sweets",
                                 "country": "IN",
                                 "area_code": "110085",
                                 "state": "DELHI"
@@ -55,15 +55,15 @@
                 }
             ],
             "billing": {
-                "phone": "9604402164",
-                "created_at": "2024-02-26T15:36:15.746Z",
-                "updated_at": "2024-02-26T15:36:15.746Z",
-                "name": "Pandurang Garje",
+                "phone": "8097527450",
+                "created_at": "2024-03-01T09:46:52.862Z",
+                "updated_at": "2024-03-01T09:46:52.862Z",
+                "name": "Dileswar Patnaik",
                 "address": {
-                    "building": "house no 1 ",
+                    "building": "First FLoor",
                     "city": "North West Delhi",
-                    "name": "house no 1  North West Delhi",
-                    "locality": "North West Delhi",
+                    "name": "First FLoor Near Balajai Sweets",
+                    "locality": "Near Balajai Sweets",
                     "country": "IN",
                     "area_code": "110085",
                     "state": "DELHI"
@@ -72,27 +72,36 @@
             "quote": {
                 "breakup": [
                     {
-                        "title": "24 Mantra Organic Wholewheat Atta",
+                        "title": "Aachi Cow Ghee 3 KG",
                         "price": {
                             "currency": "INR",
-                            "value": "299.00"
+                            "value": "1999.00"
                         },
                         "@ondc/org/title_type": "item",
                         "item": {
                             "price": {
                                 "currency": "INR",
-                                "value": "299.00"
+                                "value": "1999.00"
                             }
                         },
                         "@ondc/org/item_quantity": {
                             "count": 1
                         },
-                        "@ondc/org/item_id": "1123113753"
+                        "@ondc/org/item_id": "1124153999"
+                    },
+                    {
+                        "@ondc/org/item_id": "F1",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0.00"
+                        },
+                        "@ondc/org/title_type": "delivery",
+                        "title": "Delivery charges"
                     }
                 ],
                 "price": {
                     "currency": "INR",
-                    "value": "299.00"
+                    "value": "1999.00"
                 },
                 "ttl": "P1D"
             },
@@ -100,20 +109,20 @@
                 {
                     "fulfillment_id": "F1",
                     "location_id": "300517",
-                    "id": "1123113753",
+                    "id": "1124153999",
                     "quantity": {
                         "count": 1
                     }
                 }
             ],
-            "created_at": "2024-02-26T15:36:30.333Z",
+            "created_at": "2024-03-01T09:47:11.109Z",
             "tags": [
                 {
                     "code": "bpp_terms",
                     "list": [
                         {
                             "code": "tax_number",
-                            "value": "BDRPR2631H6767"
+                            "value": "BDRPR2631H6767B"
                         },
                         {
                             "code": "np_type",
@@ -135,7 +144,7 @@
                     ]
                 }
             ],
-            "updated_at": "2024-02-26T15:36:31.849Z",
+            "updated_at": "2024-03-01T09:47:14.493Z",
             "payment": {
                 "status": "PAID",
                 "tl_method": "http/get",
@@ -158,7 +167,7 @@
                 "@ondc/org/settlement_basis": "return_window_expiry",
                 "params": {
                     "currency": "INR",
-                    "amount": "299.00",
+                    "amount": "1999.00",
                     "transaction_id": "123456789"
                 },
                 "@ondc/org/buyer_app_finder_fee_amount": "3",
@@ -174,22 +183,22 @@
                     }
                 ]
             },
-            "id": "2314878e-7314-4398-9f8e-3a5314c91cc0"
+            "id": "c994e555-ddd3-4515-ae04-8fb2579f1b8c"
         }
     },
     "context": {
-        "city": "std:080",
+        "city": "std:022",
         "domain": "ONDC:RET10",
         "bpp_uri": "https://ondc.hypermart.site/ondc/v1/244280/bpp",
         "core_version": "1.2.0",
         "bap_id": "ondc.ondcstore.com",
         "ttl": "PT30S",
         "bpp_id": "ondc.hypermart.site",
-        "timestamp": "2024-02-26T15:36:31.849Z",
+        "timestamp": "2024-03-01T09:47:14.493Z",
         "action": "on_confirm",
         "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
         "country": "IND",
-        "message_id": "60006714-56dd-4ea7-a9c7-668f4dac692b",
-        "transaction_id": "c80e4fe9-cfd9-42fc-bbd8-55ae7310bf1f"
+        "message_id": "3c0e8658-a961-4e0f-ae68-ea63cceb4f81",
+        "transaction_id": "a7ca3e9d-0189-49d8-8695-48f0d44f9714"
     }
 }

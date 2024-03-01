@@ -4,13 +4,52 @@
             "items": [
                 {
                     "fulfillment_id": "F1",
-                    "id": "1123113845"
+                    "id": "1124153998"
+                },
+                {
+                    "fulfillment_id": "F1",
+                    "id": "1124153997"
                 }
             ],
             "quote": {
                 "breakup": [
                     {
-                        "title": "7-grains Low-gi Atta, Diabetic Friendly",
+                        "title": "Aachi Cow Ghee 2 KG",
+                        "price": {
+                            "currency": "INR",
+                            "value": "1599.00"
+                        },
+                        "@ondc/org/title_type": "item",
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "1599.00"
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                }
+                            }
+                        },
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "@ondc/org/item_id": "1124153998"
+                    },
+                    {
+                        "@ondc/org/item_id": "F1",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0.00"
+                        },
+                        "@ondc/org/title_type": "delivery",
+                        "title": "Delivery charges"
+                    },
+                    {
+                        "title": "Mother Care Ghee 1 KG",
                         "price": {
                             "currency": "INR",
                             "value": "00.00"
@@ -19,7 +58,7 @@
                         "item": {
                             "price": {
                                 "currency": "INR",
-                                "value": "1200.00"
+                                "value": "999.00"
                             },
                             "quantity": {
                                 "available": {
@@ -33,12 +72,12 @@
                         "@ondc/org/item_quantity": {
                             "count": 0
                         },
-                        "@ondc/org/item_id": "1123113845"
+                        "@ondc/org/item_id": "1124153997"
                     }
                 ],
                 "price": {
                     "currency": "INR",
-                    "value": "00.00"
+                    "value": "1599.00"
                 },
                 "ttl": "P1D"
             },
@@ -68,22 +107,22 @@
         }
     },
     "context": {
-        "city": "std:080",
+        "city": "std:022",
         "domain": "ONDC:RET10",
         "bpp_uri": "https://ondc.hypermart.site/ondc/v1/244280/bpp",
         "core_version": "1.2.0",
         "bap_id": "ondc.ondcstore.com",
         "ttl": "PT30S",
         "bpp_id": "ondc.hypermart.site",
-        "timestamp": "2024-02-26T16:13:36.642Z",
+        "timestamp": "2024-03-01T11:00:16.100Z",
         "action": "on_select",
         "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
         "country": "IND",
-        "message_id": "2ae1e16d-856e-42c7-ae35-32306a6eeb3b",
-        "transaction_id": "d6c5a673-2d55-49a5-8caf-87746c304a52"
+        "message_id": "0c71e5be-0f87-4891-8d85-7b8199e3bb9b",
+        "transaction_id": "a6be5115-ef04-486d-a0e1-0901ab59df1c"
     },
     "error": {
-        "message": "[{\\\"item_id\\\":\\\"1123113845\\\",\\\"error\\\":\\\"40002\\\"}]",
+        "message": "[{\"item_id\":\"1124153997\",\"error\":\"40002\"}]",
         "code": "40002",
         "type": "DOMAIN-ERROR"
     }

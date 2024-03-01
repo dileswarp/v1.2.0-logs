@@ -4,7 +4,7 @@
             "items": [
                 {
                     "location_id": "300517",
-                    "id": "1123113753",
+                    "id": "1124153999",
                     "quantity": {
                         "count": 1
                     }
@@ -17,7 +17,7 @@
                             "address": {
                                 "area_code": "110085"
                             },
-                            "gps": "28.7153451,77.1088008"
+                            "gps": "28.7306307,77.0219019"
                         }
                     }
                 }
@@ -33,10 +33,10 @@
         }
     },
     "context": {
-        "city": "std:080",
+        "city": "std:022",
         "domain": "ONDC:RET10",
         "bpp_uri": "https://ondc.hypermart.site/ondc/v1/244280/bpp",
-        "timestamp": "2024-02-26T15:36:09.689Z",
+        "timestamp": "2024-03-01T09:46:41.525Z",
         "core_version": "1.2.0",
         "bap_id": "ondc.ondcstore.com",
         "ttl": "PT30S",
@@ -44,7 +44,7 @@
         "country": "IND",
         "action": "select",
         "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
-        "message_id": "b81e7f00-6077-4bc5-bb82-42c28720a209",
-        "transaction_id": "c80e4fe9-cfd9-42fc-bbd8-55ae7310bf1f"
+        "message_id": "b24fcf74-9150-4a85-b830-d410270088f2",
+        "transaction_id": "a7ca3e9d-0189-49d8-8695-48f0d44f9714"
     }
 }

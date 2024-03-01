@@ -4,34 +4,34 @@
         "order": {
             "payment": {
                 "@ondc/org/settlement_details": {
-                    "settlement_timestamp": "2024-02-26T15:27:34.000Z",
+                    "settlement_timestamp": "2024-03-01T10:28:25.000Z",
                     "settlement_phase": "refund",
                     "settlement_counterparty": "buyer",
                     "settlement_type": "neft",
-                    "settlement_amount": "199.00"
+                    "settlement_amount": "1999.0"
                 }
             },
-            "id": "9979b20b-d039-47ae-bc7f-b738cb2fa6c1",
+            "id": "ea76b8e0-d1ab-4d38-b65d-7fcb3564f1fb",
             "fulfillments": [
                 {
                     "type": "Return",
-                    "id": "17c5090d-2bc9-4f6f-b6e1-86253068ce25-return"
+                    "id": "4e7f3f31-8792-4c5e-ad20-7aff4794854b-return"
                 }
             ]
         }
     },
     "context": {
-        "city": "std:080",
+        "city": "std:022",
         "domain": "ONDC:RET10",
         "bpp_uri": "https://ondc.hypermart.site/ondc/v1/244280/bpp",
         "core_version": "1.2.0",
-        "timestamp": "2024-02-26T15:27:34.000Z",
+        "timestamp": "2024-03-01T10:28:25.000Z",
         "bpp_id": "ondc.hypermart.site",
         "bap_id": "ondc.ondcstore.com",
         "action": "update",
         "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
         "country": "IND",
-        "message_id": "ec788496-a3af-4b14-af35-b6bbcf65495f",
-        "transaction_id": "ba2571a3-7ed2-42b8-9f93-35e869ea8549"
+        "message_id": "ad0d7be8-b94d-4652-928d-ff790b734299",
+        "transaction_id": "b9fcd582-8922-4f17-ac2f-4c354858a4a4"
     }
 }
